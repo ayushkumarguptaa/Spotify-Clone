@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<title>Spotify</title>
+<link rel="icon" href="./Assets/logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">               <!--main-->
+        <div class="search">               <!--div1-->
+            <div class="header-icon">
+                <i class="fa-brands fa-spotify fa-2xl" style="color:#fff"></i>
+                <div style="padding: 1rem; background-color: #121212; border-radius: 50%; color:#fff"><i class="fa-solid fa-house fa-lg " ></i></div>
+            </div>
+
+            <div class="search-input" style="margin-top: .5rem;">
+                <div style="cursor: pointer;"><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #ffffff;"></i></div>
+                <input type="text" placeholder="What are you looking for?" >
+                <div style="background-color: white;"><i class="fa-thin fa-pipe"></i></div>
+                <div class="browse" style="cursor:pointer"><i class="fa-solid fa-window-restore fa-xl" style="color: #ffffff;"></i></div>
+            </div>
+        </div>
+        <!--second div-->
+        <div class="header-login">
+            <div class="login">
+                <div class="Badges">
+                    <div class="Premium"><a class="Premium" href="#">Premium</a></div>
+                    <div class="Support"><a class="Support" href="#">Support</a></div>
+                    <div class="Download"><a class="Download" href="#">Download</a></div>
+                </div>
+
+                <div class="inner-login">
+
+                    <div class="install-app">
+                        <i class="fa-regular fa-circle-down" style="color: #ffffff;"></i>
+                        <p>Install App</p>
+                    </div>
+
+                    <div class="signup">
+                        Sign up
+                    </div>
+                    <button >Log in</button>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+                     
+                                        <!--Content Below and Heading Above-->
+                                        
+    <div class="main" style="padding: 5px;">
+        <div class="main-library">
+
+            <div class="library">
+                <div class="your-library">
+                    <i class="fa-solid fa-photo-film fa-xl" style="color: #ffffff;"></i>
+                    <p>Your Library</p>
+                </div>
+    
+                <div class="create-library">
+                    <button><i class="fa-solid fa-plus" style="color: #ffffff;"></i> Create</button>
+                    <i class="fa-solid fa-arrow-right" style="color: #fafcff; cursor:pointer;"></i>
+                </div>
+
+            </div>
+
+            <div class="artists">
+            <button>Artists</button>
+            </div>
+
+
+            <div class="recent">
+                <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                <div class="recent-played">
+                    Recents&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                </div>
+            </div>
+            <br>
+            <!--1 liked list and artists-->
+            <div class="artist_library">
+                <img src="./Assets/like.png" height="50px" style="border-radius: 5px;">
+
+                <div id="liked_song">
+                    <p >Liked Songs</p>
+
+                    <div id="playlist"><i class="fa-solid fa-download" style="color: #ffffff;"></i>
+                    <p>Playlist . 2 Songs</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <br>
+
+            <!--2 liked list and artists-->
+            <div class="artist_">
+                <img src="./Assets/nanebo.jpg" height="50px" style="border-radius: 50%;">
+
+                <div id="liked_song">
+                    <p >nanebo</p>
+
+                    <div id="playlist">
+                    <p>Artist</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <br>
+
+            <!--3 liked list and artists-->
+            <div class="artist_">
+                <img src="./Assets/kk.png" height="50px" style="border-radius: 50%;">
+
+                <div id="liked_song">
+                    <p >KK</p>
+
+                    <div id="playlist">
+                    <p >Artist</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+        <!--Main Content-->
+        <div class="main-content">
+                <div class="all_music_podcast">
+                    <button>All</button>
+                    <button>Music</button>
+                    <button>podcast</button>
+                </div>
+                <!--main playist container-->
+                <div class="main-playlist" >
+                    <!--first playlist container-->
+                    <div class="playlist">
+                        <div class="playlist-thumb">
+                            <img src="./Assets/nanebo_thub.webp" alt="" width="50rem">
+                            <div class="playlist-name">
+                                <p>nanebo</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="playlist-thumb">
+                            <img src="./Assets/90'shit_thumb.jpg" alt="" width="50rem">
+                            <div class="playlist-name">
+                                <p>90's swagger</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="playlist-thumb">
+                            <img src="./Assets/nightdrive_thumb.jpg" alt="" width="50rem">
+                            <div class="playlist-name">
+                                <p>NightDrive</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="playlist-thumb">
+                            <img src="./Assets/hurtme_thumb.jpeg" alt="" width="50rem">
+                            <div class="playlist-name">
+                                <p>U Heart Me</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--second playlist container-->
+                    <div class="playlist">
+                        <div class="playlist-thumb">
+                            <img src="./Assets/nightowl_thumb.jpg" alt="" width="50rem">
+                            <div class="playlist-name">
+                                <p>Night Owl</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="playlist-thumb">
+                            <img src="./Assets/dense_thumb.jpg" alt="" width="50rem">
+                            <div class="playlist-name">
+                                <p>dense</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="playlist-thumb">
+                            <img src="./Assets/nightdrive_thumb.jpg" alt="" width="50rem">
+                            <div class="playlist-name">
+                                <p>NightDrive</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="playlist-thumb">
+                            <img src="./Assets/yourfear_thumb.jpg" alt="" width="50rem">
+                            <div class="playlist-name">
+                                <p>Your fears</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!---->
+
+                <div class="interested-listening">
+                    <p>Made For interested to listening music</p>
+                    <a href="">Show all</a>
+                </div>
+                <br>
+                <!---->
+                <div class="interesting-thumb">
+                    <div class="main-i-thumb">
+                        <div class="i-thumb" id="i1"><img src="./Assets/logo.png" style="width: 1rem; margin-left: 10px; margin-top: 10px;" alt=""> </div>
+                        <p class="about">Chillout Deep</p>
+                    </div>
+                    <div class="main-i-thumb">
+                        <div class="i-thumb" id="i2"><img src="./Assets/logo.png" style="width: 1rem; margin-left: 10px; margin-top: 10px;" alt=""> </div>
+                        <p>nanebo, CASPER</p>
+                    </div>
+                    <div class="main-i-thumb">
+                        <div class="i-thumb" id="i3"> <img src="./Assets/logo.png" style="width: 1rem; margin-left: 10px; margin-top: 10px;" alt=""></div>
+                        <p>B Praak, Jaslee</p>
+                    </div>
+                </div>
+
+
+        </div>
+        <!--Music SRK thumb-->
+        <div class="music-thumb">
+            <div class="music-details">
+                <div class="detail"><a href="#">ShahRukh Khan</a></div>
+                <div class="detail" style="display: flex; justify-content: flex-end;">
+                    <i class="fa-solid fa-xmark" style="color: #f7f9fd; cursor: pointer;"></i>
+                </div>
+            </div>
+        </div>
+
+        
+
+        </div>
+        //Music player div - box
+    <div class="music-player">
+        
+
+    </div>
+
+</body>
+
+</html>

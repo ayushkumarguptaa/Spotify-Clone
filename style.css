@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+}
+.heading{
+    display: flex;
+    /* background-color: blue; */
+    height: 4rem;
+}
+.search{
+    width: 50%;
+    display: flex;
+}
+.header-icon{
+    /* background-color: red; */
+    width: 7rem;
+    margin-left: 2rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-input{
+    height: 75%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-left: .5rem;
+    background-color: #121212;
+    border-radius: 20px;
+    outline: white;
+}
+.search-input input{
+    margin-left: 1rem;
+    font-size: 1rem;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    width: 23rem;
+    color: #fff;
+}
+.header-login{
+    color: #fff;
+    width: 50%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.login{
+    display: flex;
+    height: 100%;
+    opacity: 0.8;
+}
+.Badges{
+    display: flex;
+    border-right-style: solid;
+    height: 50%;
+    margin-top: 25px;
+    width: 18rem;
+}
+.Premium{
+    width:33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Support{
+    width:33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Download{
+    width:33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Premium:hover{
+    font-size: 1.1rem;
+}
+.Support:hover{
+    font-size: 1.1rem;
+}
+.Download:hover{
+    font-size: 1.1rem;
+}
+.Badges a{
+    text-decoration: none;
+    color: #fff;
+}
+.inner-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:1rem ;
+    height: 50%;
+    width: 20rem;
+    margin-top: 25px;
+    /* background-color: red; */
+}
+.install-app{
+    display: flex;
+    gap: 2.5px;
+    width: 6.25rem;
+    justify-content: space-between;
+}
+.inner-login button{
+    background-color: #fff;
+    padding: 15px 32px;
+    border-radius:30px ;
+    border-color: transparent;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.main{
+    display: flex;
+    height: 80vh;
+    margin-top: 5px;
+}
+.main-library{
+    border-radius: 10px;
+    width: 415px;
+    background-color: #121212;
+    color: white;
+    opacity: 0.8;
+    padding: 1.80rem;
+    padding-top: 18px;
+}
+.library{
+    display: flex;
+}
+.your-library{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    /* background-color: red; */
+    gap: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.create-library{
+    width: 60%;
+    display: flex;
+    gap: 20px;
+    height: 2rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+.create-library button{
+    color: white;
+    background-color: #302f2f;
+    border-color: transparent;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    cursor:pointer;
+}
+.main-content{
+    border-radius: 10px;
+    margin-left: 10px;
+    overflow: auto;
+    flex: 1;
+    background-color: #121212;
+}
+.music-player{
+    border-radius: 10px;
+    width: 100%;
+    background-color: #121212;
+    height: 10vh;
+}
+.artists{
+    /* background-color: blue; */
+    margin-top: 1.25rem;
+}
+.artists button{
+    color: white;
+    opacity: 0.8;
+    background-color: transparent;
+    border-color: transparent;
+    background-color: #302f2f;
+    border-radius: 20px;
+    padding: 8px 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    cursor:pointer;
+}
+.recent{
+    margin-top: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+.recent{  
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.artist_library{
+    display: flex;
+    gap: 1rem;
+    /* border: 1px solid green; */
+}
+
+#liked_song > p{
+    /* border: 1px solid yellow; */
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#liked_song #playlist{
+    /* border: 1px solid red; */
+    height: 40%;
+    display: flex;
+    gap: 4px;
+    align-items: flex-start;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding-top: 4px;
+    /* font-weight: bold; */
+}
+.artist_{
+    display: flex;
+    gap: 1rem;
+    /* border: 1px solid green; */
+}
+
+
+/* Main contents  */
+
+.main-content{
+    padding: 18px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.all_music_podcast button{
+    padding: 10px;
+    border-radius: 20px;
+    border:transparent;
+    outline: none;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+    background-color:#474646;
+    cursor: pointer;
+    transition-duration: .20s;
+}
+.all_music_podcast button:hover{
+    background-color: #302f2f;
+}
+.main-playlist{
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+}
+.playlist{
+    /* border: 1px solid green; */
+    width: 50%;
+
+}
+.playlist-thumb{
+    border-radius: 5px;
+    display: flex;
+    backdrop-filter: blur(10px);
+    filter: drop-shadow(0 0 1px #000);
+    cursor: pointer;
+}
+.playlist-thumb img{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.playlist-name{
+    /* border: 1px solid pink; */
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    font-weight: bold;
+}
+.music-thumb{
+    width: 415px;
+    /* border: 1px solid yellow; */
+    margin-left: 10px;
+    background-color: #121212;
+    border-radius: 10px;
+    background-image: url('./Assets/srk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.music-details{
+    display: flex;
+    padding: 20px;
+}
+.detail{
+    width: 50%;
+    /* border: 1px solid green; */
+}
+.detail a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+.interested-listening{
+    display: flex;
+    padding: 10px;
+    /* border: 1px solid green; */
+}
+.interested-listening p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.40rem;
+    font-weight: bold;
+}
+.interested-listening a{
+    color: #d2c8c8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 5rem;
+}
+.interesting-thumb{
+    display:flex;
+    gap: 1rem;
+    /* border: 1px solid yellow; */
+    height: 12rem;
+}
+.interesting-thumb .main-i-thumb{
+    /* border: 1px solid blue; */
+    width: 12rem;
+    border-radius: 5px;
+}
+.interesting-thumb .main-i-thumb #i1{
+    height:10rem ;
+    border-radius: 10px;
+    background-image: url("./Assets/ankit.jpg");
+    background-size: cover;
+}
+.interesting-thumb .main-i-thumb #i2{
+    height:10rem ;
+    border-radius: 10px;
+    background-image: url("./Assets/nanebo.jpg");
+    background-size: cover;
+}
+.interesting-thumb .main-i-thumb #i3{
+    height:10rem ;
+    border-radius: 10px;
+    background-image: url("./Assets/praak.jpg");
+    background-size: cover;
+}
+.interesting-thumb .main-i-thumb p{
+    color: #d2c8c8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
